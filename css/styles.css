@@ -10,9 +10,8 @@ body {
 }
 @media only screen and (max-width:600px){
     body{
-        font-size: 13px;
+        font-size: 15px;
     }
-
 .menu-primer li {
     border-right: 1px solid #333333;
     width: 100%;
@@ -81,7 +80,7 @@ body {
 /* start main */
 .main-home-two {
     float: right;
-    width: 49.5%
+    width: 49.5%;
 }
 /* end main */
 
@@ -310,3 +309,19 @@ body {
     opacity: 0.8;
   }
   /* end effect */
+  /* start untuk hp */
+  @media only screen and (max-width:480px){
+    body{
+        font-size: 15px;
+    }
+.main-home-one {
+      float: left;
+      width: 100%
+  }
+.main-home-two {
+      float: right;
+      width: 100%;
+  }
+}
+
+   /* start untuk hp */
